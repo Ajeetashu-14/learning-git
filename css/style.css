@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0f1f;
+}
+.article-heading{
+    font-family: "Monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+}
+li,a,button,input{
+    font-family: "Monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+h1{
+    color: aqua;
+    cursor: pointer;
+    margin-right: auto;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.Nav_links{
+    list-style: none;
+}
+.Nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.Nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.Nav_links li a:hover{
+    color: lightseagreen;
+}
+button{
+    padding: 9px 25px;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 8px;
+}
+button :hover{
+    background-color: darkseagreen;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    color: transparent;
+    background-clip: text;
+    transform: translate(-50%, -50%); 
+    color: yellowgreen;
+    font-size: 30px;
+}
+
+img {
+    width: 100%;
+    background-size: cover; 
+    height: 400px;
+}
+
+.home-articles{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.home-article{
+    display: flex;
+    color: antiquewhite;
+    font-family: "Monsterrat",sans-serif;
+    font-size: 15px;
+    margin: 25px;
+}
+.article-content{
+    margin-left: 20px;
+    align-self: center;
+}
+.article-content a:hover{
+    text-decoration: none;
+    color: aqua;
+}
+.home-article img{
+    width: 200px;
+    height: 150px;
+}
+.footer{
+    height: 40px;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.year-box{
+    position: absolute;
+    right: 50px;
+    top: 80px;
+    width: 200px;
+    height: 200px;
+    color: antiquewhite;
+}
+.year-box input{
+    margin: 5px 0px;
+}

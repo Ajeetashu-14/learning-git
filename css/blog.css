@@ -1,0 +1,46 @@
+.blog-content{
+    font-family: "Monsterrat",sans-serif;
+    font-size: 15px;
+    color: #edf0f1;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 10px;
+}
+.blog-content h2{
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.home-article-blog{
+    color: antiquewhite;
+    font-family: "Monsterrat",sans-serif;
+    font-size: 15px;
+    margin: 25px;
+    flex-direction: column;
+}
+.home-article-blog img{
+    width: 200px;
+    height: 150px;
+}
+.article-content-blog{
+    text-align: center;
+}
+span{
+    color: antiquewhite;
+    font-family: "Monsterrat",sans-serif;
+    font-size: 12px;
+}
+.blogpost-meta{
+    display: flex;
+    justify-content: space-between;
+}
+.author-info div{
+    padding: 4px 0px;
+    font-size: 12px;
+}
+.social-info{
+    padding-right: 20px;
+    align-self: center;
+}
